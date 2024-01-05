@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../style/login.css">
+</head>
+<body>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<div class="wrapper fadeInDown">
+  <div id="formContent">
+    <!-- Tabs Titles -->
+
+    <!-- Icon -->
+    <div class="fadeIn first">
+      <img src="../image/rajsthan1.png" id="icon" alt="User Icon" />
+      <h1>Officer Login</h1>
+    </div>
+
+    <!-- Login Form -->
+    <form>
+      <input type="text" id="login" class="fadeIn second" name="login" placeholder="username">
+      <input type="password" id="password" class="fadeIn third" name="login" placeholder="password">
+      <input type="submit" class="fadeIn fourth" value="Log In">
+    </form>
+
+    <!-- Remind Passowrd -->
+    <div id="formFooter">
+      <a class="underlineHover" href="../html/index1.html">Go to the Site</a>
+    </div>
+
+  </div>
+</div>
+<script>
+  // Admin credentials
+let adminUsername = 'officer';
+let adminPassword = 'officer@';
+
+// Get form elements
+const loginInput = document.getElementById('login');
+const passwordInput = document.getElementById('password');
+const form = document.querySelector('form');
+
+// Handle form submission
+form.addEventListener('submit', function(event) {
+  event.preventDefault(); // Prevent form from being submitted
+
+  if (loginInput.value === adminUsername && passwordInput.value === adminPassword) {
+    // Successful login
+    window.location.href = '../html/officer_panel.html';
+  } else {
+    // Failed login
+    alert('Invalid username or password.');
+  }
+});
+</script>
+</body>
+</html>
