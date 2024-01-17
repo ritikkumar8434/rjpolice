@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../style/style1.css" />
+    <link rel="stylesheet" href="../style/feedback.css">
+    
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
+      rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"></script>
+      
+<!-- <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css"> -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+<style>
+    .formdown {
+  margin: 50px auto;
+  width: 300px;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+/* #stars{
+  display: inline;
+} */
+
+#feed1{
+            display: flex;
+            margin-left: 20px;
+      }
+#feed1 h4{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}        
+        .stars{
+            display: flex;
+            margin-left:100px ;
+            gap: 13px;
+        }
+        .star{
+            margin-top: 8px;
+            font-size:25px ;
+        }
+        #ratingValue{
+            font-size: 20px;
+            margin-top: 13px;
+            margin-left: 30px;
+        }
+        #feed2{
+          display: flex;
+            margin-left: 20px;
+        }
+        #feed2 h4{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}   
+        
+        #feed3{
+          display: flex;
+            margin-left: 20px;
+        }
+        #feed3 h4{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}   
+        
+        #feed4{
+          display: flex;
+            margin-left: 20px;
+        }
+        #feed4 h4{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}   
+        #feed5{
+            display: flex;
+            margin-left: 20px;
+      }
+      #feed5 h4{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}   
+      #feed6{
+            display: flex;
+            margin-left: 20px;
+      }
+      #feed6 h4{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}   
+      #feed7{
+            display: flex;
+            margin-left: 20px;
+      }
+      #feed7 h4{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}   
+      #feed8{
+            display: flex;
+            margin-left: 20px;
+      }
+      #feed8 h4{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}   
+      #feed9{
+            display: flex;
+            margin-left: 20px;
+            margin-bottom: 80px;
+      }
+      #feed9 h4{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}   
+ #tla{
+  
+  margin-bottom: 50px;
+ }     
+        
+
+.star:hover,
+.star.active {
+  color: gold;
+  cursor: pointer;
+}
+</style>  
+</head>
+  <body>
+    <div id="main">
+      <nav>
+        <img src="../image/rajsthan1.png" alt="" />
+        <a href="../html/index1.html" class="nav-item">Home</a>
+        <a href="../html/about.html" class="nav-item">About</a>
+        <a href="../html/feedback.html" class="nav-item">Feedback</a>
+        <a href="../html/contact1.html" class="nav-item">Contact Us</a>
+        <i class="ri-user-3-fill"></i>
+      </nav>
+    </div>
+    <div id="main2">
+        <div id="nav">
+          <h2>FEEDBACK</h2>
+        </div>
+        <div id="upper">
+          <img src="../image/logooo.png" alt="" />
+          <h1>Rajasthan Police</h1>
+        </div>
+        <div id="line"></div>
+        <h3>Ready To Serve</h3>
+        <div id="boxes">
+          <div id="b1">
+            <map name="" class="location">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14234.288548812647!2d75.7989235!3d26.8853317!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db4259088aef5%3A0x7cd5f00234fbc011!2sRajasthan%20Police%20Headquarters!5e0!3m2!1sen!2sin!4v1704480458990!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </map>
+            <textarea name="" id="one" cols="35" rows="10"></textarea>
+            
+            <i class="ri-map-pin-fill"></i>
+          </div>
+          <div id="b2">
+            <h2>Ph: 0141-2744254</h2>
+            <textarea name="" id="two" cols="35" rows="10"></textarea>
+            <i class="ri-phone-fill"></i>
+          </div>
+          <div id="b3">
+            <h2>rajphcc@ gmail.com</h2>
+            <textarea name="" id="three" cols="35" rows="10"></textarea>
+            <i class="ri-mail-line"></i>
+          </div>
+        </div>
+        <p>
+          Please spare a few minutes to give your valuable feedback/suggestions
+          regarding your interaction with Police officers.
+        </p>
+        <div id="mid">
+          <div id="t">
+            <h4>Your Name</h4>
+            <h4>Your Mobile No.</h4>
+            <h4>Your Email</h4>
+          </div>
+          <div id="b">
+            <input type="text" class="c" required />
+            <input type="text" class="c" required />
+            <input type="text" class="c" required/>
+          </div>
+          <div class="formdown">
+            <select id="citiesDropdown" onchange="fetchCities()" required>
+              <option value="">Select Cities</option>
+
+              </select>
+            <select id="stationDropdown" required>
+              <option value="">Select Police Satation</option>
+              <!-- <option value="">Select Station</option>
+              <option value="">Christianganj Police Station</option>
+              <option value="">Civil Lines Police Station</option>
+              <option value="">Kotwali Ajmer Police Station</option>
+              <option value="">Mahila/ Women Police Station</option>
+              <option value="">Adarsh Nagar Police Station</option>
+              <option value="">Alwar Gate Police Station</option>
+              <option value="">Clock Tower Police Station</option>
+              <option value="">Ramganj Police Station</option>
+              <option value="">Gegal Police Station</option>
+              <option value="">Mangliyawas Police Station</option>
+              <option value="">Nasirabad City Police Station</option>
+              <option value="">Pisangan Police Station</option>
+              <option value="">Pushkar Police Station</option>
+              <option value="">Dargah Police Station</option>
+              <option value="">Ganj Police Station</option>
+              <option value="">Beawar City Police Station</option>
+              <option value="">Jawaja Police Station</option>
+              <option value="">Masuda Police Station</option>
+              <option value="">Sadar Beawar Police Station</option>
+              <option value="">Bhinai Police Station</option>
+              <option value="">Kekri Police Station</option>
+              <option value="">Sarana Police Station</option>
+              <option value="">Sarwar Police Station</option>
+              <option value="">Bander Sindri Police Station</option>
+              <option value="">Gandhi Nagar Police Station</option>
+              <option value="">Kishangarh Police Station</option>
+              <option value="">Madanganj Police Station</option>
+              <option value="">Arian Police Station</option>
+              <option value="">Borada Police Station</option>
+              <option value="">Rupangarh Police Station</option>
+              <option value="">Bijay Nagar Police Station</option>
+              <option value="">Nasirabad Sadar Police Station</option>
+              <option value="">Shri Nagar Police Station</option> -->
+              
+
+
+            </select>
+        </div>
+        <script src="../script/dropdown.js"></script>
+          <!-- <div class="dropdown">
+            <button class="dropbtn text-black">Police Station<i class="fa fa-sort-desc" aria-hidden="true"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">Police Station1</a>
+              <a href="#">Police Station1</a>
+            </div>
+          </div> -->
+          <!-- <h5>Comment</h5>
+          <textarea name="" id="ta" cols="110" rows="4"></textarea> -->
+        </div>
+        <div id="feed1">
+          <h4>1. Please rate your overall satisfaction with the services provided by the Rajasthan Police.</h4>
+        <div class="stars">
+
+            <span class="star" data-value="1">&#9733;</span>
+            <span class="star" data-value="2">&#9733;</span>
+            <span class="star" data-value="3">&#9733;</span>
+            <span class="star" data-value="4">&#9733;</span>
+            <span class="star" data-value="5">&#9733;</span>
+
+            <p id="ratingValue">Rating : 0</p>
+        </div>
+    </div>
+    <div id="feed2">
+        <h4>2. How would you rate the communication skills of the police officers who assisted you?</h4>
+        <div class="stars">
+
+            <span class="star" data-value="1">&#9733;</span>
+            <span class="star" data-value="2">&#9733;</span>
+            <span class="star" data-value="3">&#9733;</span>
+            <span class="star" data-value="4">&#9733;</span>
+            <span class="star" data-value="5">&#9733;</span>
+
+            <p id="ratingValue">Rating : 0</p>
+        </div>
+    </div>
+    <div id="feed3">
+        <h4>3. Were you provided with clear and sufficient information during the interaction?</h4>
+        <div class="stars">
+
+            <span class="star" data-value="1">&#9733;</span>
+            <span class="star" data-value="2">&#9733;</span>
+            <span class="star" data-value="3">&#9733;</span>
+            <span class="star" data-value="4">&#9733;</span>
+            <span class="star" data-value="5">&#9733;</span>
+
+            <p id="ratingValue">Rating : 0</p>
+        </div>
+    </div>
+    <div id="feed4">
+        <h4>4. How easy was it for you to reach out to the police when you needed assistance?</h4>
+        <div class="stars">
+
+            <span class="star" data-value="1">&#9733;</span>
+            <span class="star" data-value="2">&#9733;</span>
+            <span class="star" data-value="3">&#9733;</span>
+            <span class="star" data-value="4">&#9733;</span>
+            <span class="star" data-value="5">&#9733;</span>
+
+            <p id="ratingValue">Rating : 0</p>
+        </div>
+      </div>
+      <div id="feed5">
+        <h4>5. Did the police officers treat you with respect and courtesy?</h4>
+        <div class="stars">
+
+            <span class="star" data-value="1">&#9733;</span>
+            <span class="star" data-value="2">&#9733;</span>
+            <span class="star" data-value="3">&#9733;</span>
+            <span class="star" data-value="4">&#9733;</span>
+            <span class="star" data-value="5">&#9733;</span>
+
+            <p id="ratingValue">Rating : 0</p>
+        </div>
+      </div>
+      <div id="feed6">
+        <h4>6.Do you feel safe and secure in your neighborhood?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h4>
+        <div class="stars">
+
+            <span class="star" data-value="1">&#9733;</span>
+            <span class="star" data-value="2">&#9733;</span>
+            <span class="star" data-value="3">&#9733;</span>
+            <span class="star" data-value="4">&#9733;</span>
+            <span class="star" data-value="5">&#9733;</span>
+
+            <p id="ratingValue">Rating : 0</p>
+        </div>
+      </div>
+      <div id="feed7">
+        <h4>7.How would you rate the efforts of the police in maintaining public safety?</h4>
+        <div class="stars">
+
+            <span class="star" data-value="1">&#9733;</span>
+            <span class="star" data-value="2">&#9733;</span>
+            <span class="star" data-value="3">&#9733;</span>
+            <span class="star" data-value="4">&#9733;</span>
+            <span class="star" data-value="5">&#9733;</span>
+
+            <p id="ratingValue">Rating : 0</p>
+        </div>
+      </div>
+      <div id="feed8">
+        <h4>8.How satisfied are you with the resolution of the issue you reported to the police?</h4>
+        <div class="stars">
+
+            <span class="star" data-value="1">&#9733;</span>
+            <span class="star" data-value="2">&#9733;</span>
+            <span class="star" data-value="3">&#9733;</span>
+            <span class="star" data-value="4">&#9733;</span>
+            <span class="star" data-value="5">&#9733;</span>
+
+            <p id="ratingValue">Rating : 0</p>
+        </div>
+      </div>
+      <div id="feed9">
+        <h4>9.Please provide any suggestions you have for improving police services in your area.</h4>
+        
+      </div>
+      <textarea name="" id="tla" cols="100" rows="4"></textarea>
+          <button type="submit" id="btn" onclick="submitform()">SUBMIT</button>
+      <!-- <div id="feed9">
+        <h4>9.Please provide any suggestions you have for improving police services in your area.
+        </h4>
+        <textarea name="" id="tla" cols="105" rows="4"></textarea>
+        <button type="submit" id="btn">SUBMIT</button>
+      </div> -->
+    
+<footer id="dk-footer" class="dk-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-4">
+                    <div class="dk-footer-box-info">
+                        <a href="../html/index1.html" class="footer-logo">
+                            <img src="../image/rajsthan1.png" alt="footer_logo" class="img-fluid">
+                        </a>
+                        <p class="footer-info-text foot_text">
+                            Reference site about Feedback System in which user can give valuable feedback to police which can help us to improve the system in better way.
+                        </p>
+                        <div class="footer-social-link">
+                            <h3>Follow us</h3>
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-google-plus"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-linkedin"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-instagram"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- End Social link -->
+                    </div>
+                    <!-- End Footer info -->
+                   
+                </div>
+                <!-- End Col -->
+                <div class="col-md-12 col-lg-8">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="contact-us">
+                                <div class="contact-icon">
+                                    <i class="fa fa-map-o" aria-hidden="true"></i>
+                                </div>
+                                <!-- End contact Icon -->
+                                <div class="contact-info">
+                                    <h3>Jaipur India</h3>
+                                    <p>105, Police Head Quarter, Lal Kothi, Jaipur – 302015 (Rajasthan)</p>
+                                </div>
+                                <!-- End Contact Info -->
+                            </div>
+                            <!-- End Contact Us -->
+                        </div>
+                        <!-- End Col -->
+                        <div class="col-md-6">
+                            <div class="contact-us contact-us-last">
+                                <div class="contact-icon">
+                                    <i class="fa fa-volume-control-phone" aria-hidden="true"></i>
+                                </div>
+                                <!-- End contact Icon -->
+                                <div class="contact-info">
+                                    <h3>ph: 0141-2744254/0141-2740784</h3>
+                                    <p>Give us a call</p>
+                                </div>
+                                <!-- End Contact Info -->
+                            </div>
+                            <!-- End Contact Us -->
+                        </div>
+                        <!-- End Col -->
+                    </div>
+                    <!-- End Contact Row -->
+                    <div class="row">
+                        <div class="col-md-12 col-lg-6">
+                            <div class="footer-widget footer-left-widget">
+                                <div class="section-heading">
+                                    <h3>Useful Links</h3>
+                                    <span class="animate-border border-black"></span>
+                                </div>
+                                <ul>
+                                    <li>
+                                        <a href="../html/about.html">About us</a>
+                                    </li>
+                                    <li>
+                                        <a href="../html/feedback.html">Feedback</a>
+                                    </li>
+                                
+                                </ul>
+                                <ul>
+                                    <li>
+                                        <a href="../html/contact1.html">Contact us</a>
+                                    </li>
+                                    
+                                    
+                                </ul>
+                            </div>
+                            <!-- End Footer Widget -->
+                        </div>
+                        <!-- End col -->
+                        <div class="col-md-12 col-lg-6">
+                            <div class="footer-widget">
+                                <div class="section-heading">
+                                    <!-- <h3>Subscribe</h3>
+                                    <span class="animate-border border-black"></span>
+                                </div>
+                                <p>< Don’t miss to subscribe to our new feeds, kindly fill the form below. -->
+                                    <!-- Reference site about Feedback System in which user can give valuable feedback to police which can help us to improve the system in better way.</p> -->
+                                <!-- <form action="#">  -->
+                                    <div class="form-row">
+                                        <div class="col dk-footer-form">
+                                            <input type="email" class="form-control" placeholder="Email Address">
+                                            <button type="submit">
+                                                <i class="fa fa-send"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                <!-- </form> -->
+                                <!-- End form -->
+                            </div>
+                            <!-- End footer widget -->
+                        </div>
+                        <!-- End Col -->
+                    </div>
+                    <!-- End Row -->
+                </div>
+                <!-- End Col -->
+            </div>
+            <!-- End Widget Row -->
+        </div>
+        <!-- End Contact Container -->
+
+
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <span>Copyright © 2019, All Right Reserved Seobin</span>
+                    </div>
+                    <!-- End Col -->
+                    <div class="col-md-6">
+                        <div class="copyright-menu">
+                            <ul>
+                                <li>
+                                    <a href="../html/index1.html">Home</a>
+                                </li>
+                                <li>
+                                    <a href="../html/about.html">About</a>
+                                </li>
+                                <li>
+                                    <a href="../html/feedback.html">Feedback</a>
+                                </li>
+                                <li>
+                                    <a href="../html/contact1.html">Contact Us</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- End col -->
+                </div>
+                <!-- End Row -->
+            </div>
+            <!-- End Copyright Container -->
+        </div>
+        <!-- End Copyright -->
+        <!-- Back to top -->
+        <div id="back-to-top" class="back-to-top">
+            <button class="btn btn-dark" title="Back to Top" style="display: block;">
+                <i class="fa fa-angle-up"></i>
+            </button>
+        </div>
+        <!-- End Back to top -->
+</footer>
+
+</div>
+
+<script>
+ document.addEventListener('DOMContentLoaded', () => {
+    const starsContainers = document.querySelectorAll('.stars');
+
+    starsContainers.forEach((container) => {
+        const stars = container.querySelectorAll('.star');
+        const ratingValue = container.querySelector('p');
+
+        stars.forEach((star) => {
+            star.addEventListener('click', (e) => {
+                const value = parseInt(e.target.getAttribute('data-value'));
+
+                ratingValue.textContent = `Rating : ${value}`;
+
+                stars.forEach((s, idx) => {
+                    s.classList.toggle('active', idx < value);
+                });
+
+                const questionId = container.parentElement.id; // Get the parent ID (e.g., feed1, feed2, feed3)
+                
+                // Send rating to backend (e.g., using fetch API)
+                sendRating(value, questionId);
+            });
+        });
+    });
+});
+
+function sendRating(value, questionId) {
+    fetch('/saveRating', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+            questionId: questionId,
+            rating: value
+        }),
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.success) {
+            console.log('Rating saved successfully.');
+        } else {
+            console.log('Failed to save rating.');
+        }
+    })
+    .catch(error => {
+        console.error('Error saving rating:', error);
+    });
+}
+</script>
+<script>
+  function submitform(){
+    alert("Successfull");
+  }
+</script>
+</body>
+</html>
