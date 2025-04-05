@@ -69,12 +69,16 @@ OTP/email verification for authenticated users.
 
 Multilingual support for broader reach.
 
-🤝 Team CodeCrewMates
-Name	Role
-Ritik Kumar	Team Leader / Full Stack Developer
-Priyanshi sahu	Backend Developer
-Mayank Singh Solanki	UI/UX Designer/ Frotend Developer
-Poonam Singh	Research & Documentation
+
+## 🤝 Team CodeCrewMates
+
+| Name                        | Role                                  |
+|-----------------------------|---------------------------------------|
+| **Ritik Kumar**             | 🧑‍💼 Team Leader / Full Stack Developer |
+| **Priyanshi sahu**          | 🎨 Backend/ Frontend Developer        |
+| **Mayank Singh Solanki**    | 🧠 UI/UX Designer/ Frontend Developer |
+| **Poonam Singh**            | 📋 Research & Documentation           |
+
 
 
 🛡 This project was developed under the Rajasthan Police Hackathon initiative with the intent to bridge the gap between law enforcement and the community through tech innovation.
